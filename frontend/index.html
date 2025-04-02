@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArsAslshop - Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка с лого и меню -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Логотип -->
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="ArsAslShop">
+                <div class="logo-text">
+                    <h1>ArsAslShop</h1>
+                    <p>Гаджеты будущего уже сегодня</p>
+                </div>
+            </a>
+    
+            <!-- Главное меню -->
+            <ul class="nav-main">
+                <li>
+                    <a href="#">Главная</a>
+                </li>
+                <li>
+                    <a href="#">Каталог</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Смартфоны</a></li>
+                        <li><a href="#">Ноутбуки</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                        <li><a href="#">Умные часы</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Акции</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Распродажа</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+    
+            <!-- Иконки действий -->
+            <!-- Иконки действий -->
+            <div class="header-actions">
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        placeholder="Поиск товаров..."
+                    >
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div style="position: relative;">
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <span class="cart-count">3</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Блок с товарами -->
+    <main class="container products">
+        <h2>Популярные товары</h2>
+        <div class="row">
+            <!-- Карточка 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card product-card">
+                    <img src="images/iphone.jpg" class="card-img-top" alt="iPhone 15">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 15 Pro</h5>
+                        <p class="card-text">128GB, Titanium</p>
+                        <p class="price">440 990 ₸</p>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card product-card">
+                    <img src="images/macbook.jpg" class="card-img-top" alt="MacBook">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Air M2</h5>
+                        <p class="card-text">13.6", 8GB/256GB</p>
+                        <p class="price">540 990 ₸</p>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card product-card">
+                    <img src="images/watch.jpg" class="card-img-top" alt="Apple Watch">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Watch Ultra</h5>
+                        <p class="card-text">49mm, GPS</p>
+                        <p class="price">269 990 ₸</p>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card product-card">
+                    <img src="images/airpods.jpg" class="card-img-top" alt="AirPods">
+                    <div class="card-body">
+                        <h5 class="card-title">AirPods Pro 2</h5>
+                        <p class="card-text">с шумоподавлением</p>
+                        <p class="price">154 990 ₸</p>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- О магазине -->
+            <div class="footer-section">
+                <h3>ArsAslShop</h3>
+                <p>Лучшие гаджеты по доступным ценам с гарантией качества и быстрой доставкой.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+    
+            <!-- Меню -->
+            <div class="footer-section">
+                <h3>Меню</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+    
+            <!-- Контакты -->
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> г. Алматы, ул. Манаса, Жандосова</li>
+                    <li><i class="fas fa-phone"></i> +7 (707) 123-45-67</li>
+                    <li><i class="fas fa-envelope"></i> info@arsaslshop.ru</li>
+                    <li><i class="fas fa-clock"></i> Пн-Пт: 9:00-21:00</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="copyright">
+            &copy; 2024 ArsAslShop. Все права защищены.
+        </div>
+    </footer>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Анимация поиска
+        document.querySelector('.search-btn').addEventListener('click', function(e) {
+          e.stopPropagation();
+          const searchInput = document.querySelector('.search-input');
+          this.classList.toggle('active');
+          searchInput.classList.toggle('active');
+          
+          if (searchInput.classList.contains('active')) {
+            searchInput.focus();
+          }
+        });
+      
+        // Закрытие при клике вне поиска
+        document.addEventListener('click', function() {
+          const searchInput = document.querySelector('.search-input');
+          const searchBtn = document.querySelector('.search-btn');
+          if (searchInput.classList.contains('active')) {
+            searchInput.classList.remove('active');
+            searchBtn.classList.remove('active');
+          }
+        });
+      </script>
+</body>
+</html>
